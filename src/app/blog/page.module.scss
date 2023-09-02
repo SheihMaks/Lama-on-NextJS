@@ -1,0 +1,44 @@
+// .container{
+//     display: flex;
+//     align-items: center;
+//     gap:50px;
+//     margin-bottom: 50px;
+// }
+.titleCategory {
+    color: #53c28b;
+}
+
+
+.items {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    color: #999;
+}
+
+.imgContainer {
+    flex: 1;
+    position: relative;
+}
+
+.img {
+    object-fit: cover;
+}
