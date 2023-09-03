@@ -43,7 +43,8 @@ const Dashboard = () => {
                     username:session.data.user.name
                 })
             })
-            mutate()
+            mutate();
+            e.target.reset()
         } catch (error) {
             console.log(error)
         }
